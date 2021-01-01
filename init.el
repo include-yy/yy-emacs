@@ -1,18 +1,44 @@
-(tool-bar-mode -1)
+;;; init.el --- Load the full configuration
+;;; -*- coding: utf-8; lexical-binding: t; -*-
+;;; Comment:
 
-(scroll-bar-mode -1)
+;; This file bootstraps the configuration, which is divided into
+;; a number of files.
 
-(global-linum-mode 1)
+;;; Code
 
-(setq cursor-type 'bar)
+;; Produce backtraces when errors occur: can be helpful to diagnose startup issues
+;;(setq debug-on-error t)
 
-(setq inhibit-splash-screen 1)
+(let ((minver "27.1"))
+  (when (version< emacs-version minver)
+    (error "Your emacs is too old -- this config requires v%s or higher" minver)))
 
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+
+;;-----------------------------------------------------------------------------
+;; Bootstrap config
+;;-----------------------------------------------------------------------------
+(require 'init-utils)
+(require 'init-elpa) ;;Machinery for installing required packages
+
+;;-----------------------------------------------------------------------------
+;; Load configs for specific features and modes
+;;-----------------------------------------------------------------------------
+(require 'init-essential)
+(require 'init-linum-mode)
+(require 'init-misc)
+(require 'init-lisp)
+
+;;for temp used
 (defun open-init-file()
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 
 (global-set-key (kbd "<f2>") 'open-init-file)
 
-(setq-default make-backup-files nil)
+(provide 'init)
+
+;;; init.el ends here
+
 
