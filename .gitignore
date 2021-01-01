@@ -8,10 +8,12 @@
 *~
 \#*
 /elpa
+/elpa-*
 /history
 /recentf
 emms/
 tutorial/
 /var
 eshell/
+/custom.el
 
