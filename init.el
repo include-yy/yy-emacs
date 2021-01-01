@@ -10,7 +10,7 @@
 ;; Produce backtraces when errors occur: can be helpful to diagnose startup issues
 ;;(setq debug-on-error t)
 
-(let ((minver "27.1"))
+(let ((minver "26.1"))
   (when (version< emacs-version minver)
     (error "Your emacs is too old -- this config requires v%s or higher" minver)))
 
