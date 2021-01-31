@@ -16,6 +16,9 @@
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
+(defconst my-emacs-d (file-name-as-directory user-emacs-directory)
+  "Directory of emacs.d")
+
 ;;-----------------------------------------------------------------------------
 ;; Bootstrap config
 ;;-----------------------------------------------------------------------------
@@ -27,10 +30,15 @@
 ;; Load configs for specific features and modes
 ;;-----------------------------------------------------------------------------
 (require 'init-essential)
+(require 'init-misc)
 (require 'init-linum-mode)
 (require 'init-windows)
-(require 'init-misc)
 (require 'init-lisp)
+(require 'init-company)
+(require 'init-neotree)
+(require 'init-ivy)
+(require 'init-yasnippet)
+(require 'init-cc-mode)
 
 ;;for temp used
 (defun open-init-file()

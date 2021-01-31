@@ -2,9 +2,10 @@
 ;;; -*- coding: utf-8; lexical-binding: t; -*-
 ;;;Comment:
 
+;; http://stackoverflow.com/questions/3875213/turning-on-linum-mode-when-in-python-c-mode
+
 ;;;Code:
 
-;; http://stackoverflow.com/questions/3875213/turning-on-linum-mode-when-in-python-c-mode
 (defvar my-linum-inhibit-modes
   '(eshell-mode
     shell-mode

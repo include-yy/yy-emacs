@@ -2,6 +2,8 @@
 ;;; -*- coding: utf-8; lexical-binding: t; -*-
 ;;; Comment:
 
+;; copied from https://github.com/redguardtoo/emacs.d/blob/31d35d444667d19d4f47edb6b61a765be4f64f48/lisp/init-elpa.el
+;; copied from https://github.com/purcell/emacs.d/blob/master/lisp/init-elpa.el
 ;;; Code:
 
 (require 'package)
@@ -24,7 +26,7 @@
         ;; is slow or shutdown.
 
         ;; ;; {{ Option 1: 163 mirror repository:
-        ;; ;; ("gnu" . "https://mirrors.163.com/elpa/gnu/")
+        ("gnu" . "https://mirrors.163.com/elpa/gnu/")
         ("melpa" . "https://mirrors.163.com/elpa/melpa/")
         ("melpa-stable" . "https://mirrors.163.com/elpa/melpa-stable/")
         ;; ;; }}
@@ -68,11 +70,29 @@
 ;;-----------------------------------------------------------------------------
 ;; The installed packages
 ;;-----------------------------------------------------------------------------
+
+;; emacs-vim mode
 (require-package 'evil)
+;; used by init-windows.el
 (require-package 'ace-window)
 (require-package 'winum)
+;; A smart M-x enhancement for Emacs
 (require-package 'smex)
-
+;; used by init-company.el
+(require-package 'company)
+(require-package 'company-statistics)
+;; dir tree
+(require-package 'neotree)
+;; undo tree
+(require-package 'undo-tree)
+;; ivy, swiper and counsel
+(require-package 'ivy)
+(require-package 'swiper)
+(require-package 'counsel)
+;; yasnippet mode
+(require-package 'yasnippet)
+(require-package 'yasnippet-snippets)
+(require-package 'auto-yasnippet)
 (provide 'init-elpa)
-;;; init-elpa.el ends here
 
+;;; init-elpa.el ends here

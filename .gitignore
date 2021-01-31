@@ -16,4 +16,5 @@ tutorial/
 /var
 eshell/
 /custom.el
-
+/smex-items
+/company-statistics-cache.el
