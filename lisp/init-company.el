@@ -42,8 +42,8 @@ In that case, insert the number."
   (company-statistics-mode)
   
   ;;copied from chen bin's config, but maybe i don't need them
-  ;; ;;(push 'company-cmake company-backends)
-  ;; ;;(push 'company-c-headers company-backends)
+  (push 'company-cmake company-backends)
+  (push 'company-c-headers company-backends)
   
   ;; delete company-ropemacs, but I don't know why
   (setq company-backends (delete 'company-ropemacs company-backends))

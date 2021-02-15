@@ -15,6 +15,7 @@
     (error "Your emacs is too old -- this config requires v%s or higher" minver)))
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(add-to-list 'load-path (expand-file-name "extensions/nox" user-emacs-directory))
 
 (defconst my-emacs-d (file-name-as-directory user-emacs-directory)
   "Directory of emacs.d")
@@ -39,6 +40,7 @@
 (require 'init-ivy)
 (require 'init-yasnippet)
 (require 'init-cc-mode)
+(require 'init-nox)
 
 ;;for temp used
 (defun open-init-file()

@@ -81,6 +81,7 @@
 ;; used by init-company.el
 (require-package 'company)
 (require-package 'company-statistics)
+(require-package 'company-c-headers)
 ;; dir tree
 (require-package 'neotree)
 ;; undo tree
