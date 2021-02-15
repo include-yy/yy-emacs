@@ -8,7 +8,11 @@
   (defvar yy-emacs-root-dir (file-truename "~/yy-emacs/site-lisp"))
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "extensions"))
-  
-  (require 'init-auto-save))
+
+  (require 'init-startup)
+  (require 'init-generic)
+  (require 'init-backup)
+  (require 'init-auto-save)
+  (require 'highlight-parentheses))
 
 (provide 'init)
