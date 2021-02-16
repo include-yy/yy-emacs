@@ -15,16 +15,23 @@
   (require 'init-generic)
   (require 'lazy-load)
   (require 'basic-toolkit)
+  (require 'display-line-numbers)
   (require 'highlight-parentheses)
-
 
   (require 'init-backup)
   (require 'init-auto-save)
-  (require 'init-session)
-  (require 'init-company-mode)
-  (require 'init-yasnippet)
+  (require 'init-line-number)
 
-  )
+  (run-with-idle-timer
+   1 nil
+   #'(lambda ()
+       (require 'init-yasnippet)
+       (require 'init-company-mode)
+
+       ;; Restore session at last
+       (require 'init-session)
+       ;;(emacs-session-restore)
+  )))
 
 
 (provide 'init)
