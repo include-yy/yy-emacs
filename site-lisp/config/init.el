@@ -2,12 +2,14 @@
 
 (let (
       ;; temporarily increase `gc-cons-threshold' to speed up boost
-      )
+      (gc-cons-threshold most-positive-fixnum)
+      (gc-cons-percentage 0.6)
+      (file-name-handler-alist nil))
 
   ;; define some boost directories for ease of migration
   (defvar yy-emacs-root-dir (file-truename "~/yy-emacs/site-lisp"))
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
-  (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "extensions"))
+  (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
 
   (require 'init-startup)
   (require 'init-generic)
@@ -20,8 +22,11 @@
   (require 'init-auto-save)
   (require 'init-session)
   (require 'init-company-mode)
+  (require 'init-yasnippet)
+
   )
 
 
 (provide 'init)
 
+;;; init.el ends here

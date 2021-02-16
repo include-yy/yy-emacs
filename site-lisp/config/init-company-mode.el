@@ -72,3 +72,4 @@
 
 (provide 'init-company-mode)
 
+;;; init-company-mode ends here
