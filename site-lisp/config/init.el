@@ -13,8 +13,11 @@
 
   (require 'init-startup)
   (require 'init-generic)
+  (require 'lazycat-theme)
+  (lazycat-theme-load-with-sunrise)
   (require 'lazy-load)
   (require 'basic-toolkit)
+  (require 'redo+)
   (require 'display-line-numbers)
   (require 'highlight-parentheses)
 
