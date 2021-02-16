@@ -24,6 +24,7 @@
   (require 'init-auto-save)
   (require 'init-line-number)
   (require 'init-awesome-pair)
+  (require 'init-awesome-tray)
   (require 'init-key)
 
   (run-with-idle-timer
