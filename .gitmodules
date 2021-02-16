@@ -1,3 +1,6 @@
 [submodule "auto-save"]
 	path = site-lisp/extensions/auto-save
 	url = https://github.com/manateelazycat/auto-save
+[submodule "lazy-load"]
+	path = site-lisp/extensions/lazy-load
+	url = https://github.com/manateelazycat/lazy-load

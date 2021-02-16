@@ -11,9 +11,17 @@
 
   (require 'init-startup)
   (require 'init-generic)
+  (require 'lazy-load)
+  (require 'basic-toolkit)
+  (require 'highlight-parentheses)
+
+
   (require 'init-backup)
   (require 'init-auto-save)
-  (require 'highlight-parentheses)
-  (require 'init-session))
+  (require 'init-session)
+  (require 'init-company-mode)
+  )
+
 
 (provide 'init)
+
