@@ -16,3 +16,6 @@
 [submodule "disable-mouse"]
 	path = site-lisp/extensions/disable-mouse
 	url = https://github.com/purcell/disable-mouse
+[submodule "swiper"]
+	path = site-lisp/extensions/swiper
+	url = https://github.com/abo-abo/swiper

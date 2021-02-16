@@ -34,9 +34,18 @@
 	("M-:" . awesome-pair-jump-out-pair-and-newline)
 	))
 (lazy-load-set-keys awesome-pair-key-alist awesome-pair-mode-map)
+
+
+;;; ### ivy ###
+(lazy-load-unset-keys '("C-x b") ivy-mode-map)
+(lazy-load-unset-keys '("C-s" "C-h f") counsel-mode-map)
+
+(lazy-load-set-keys
+ '(("C-x b" . ivy-switch-buffer)) ivy-mode-map)
+(lazy-load-set-keys
+ '(("C-s" . counsel-grep-or-swiper)) counsel-mode-map)
+
 
 (provide 'init-key)
 
 ;;; init-key.el ends here
-
-
