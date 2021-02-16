@@ -11,8 +11,7 @@
 
   (require 'init-startup)
   (require 'init-generic)
-  (require 'lazycat-theme)
-  (lazycat-theme-load-with-sunrise)
+  ;;(require 'init-moe-theme)
   (require 'lazy-load)
   (require 'basic-toolkit)
   (require 'redo+)
@@ -24,7 +23,7 @@
   (require 'init-auto-save)
   (require 'init-line-number)
   (require 'init-awesome-pair)
-  (require 'init-awesome-tray)
+  (require 'init-company-mode)
   (require 'init-ivy)
   (require 'init-key)
 
@@ -32,7 +31,7 @@
    1 nil
    #'(lambda ()
        (require 'init-yasnippet)
-       (require 'init-company-mode)
+
 
        ;; Restore session at last
        (require 'init-session)
