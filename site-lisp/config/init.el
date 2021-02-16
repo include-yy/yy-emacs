@@ -13,6 +13,7 @@
   (require 'init-generic)
   (require 'init-backup)
   (require 'init-auto-save)
-  (require 'highlight-parentheses))
+  (require 'highlight-parentheses)
+  (require 'init-session))
 
 (provide 'init)

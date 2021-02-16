@@ -1,6 +1,6 @@
 ;; Restore emacs session
 (setq initial-buffer-choice t)
-(run-with-timer 1 nil #'(lambda () (bury-buffer)))
+;;(run-with-timer 1 nil #'(lambda () (bury-buffer)))
 
 ;; improve performance of long line process
 (setq bidi-inhibit-bpa t)
