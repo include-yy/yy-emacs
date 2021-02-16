@@ -1,5 +1,3 @@
-
-
 (let (
       ;; temporarily increase `gc-cons-threshold' to speed up boost
       (gc-cons-threshold most-positive-fixnum)
@@ -18,12 +16,15 @@
   (require 'lazy-load)
   (require 'basic-toolkit)
   (require 'redo+)
+  (require 'awesome-pair)
   (require 'display-line-numbers)
   (require 'highlight-parentheses)
 
   (require 'init-backup)
   (require 'init-auto-save)
   (require 'init-line-number)
+  (require 'init-awesome-pair)
+  (require 'init-key)
 
   (run-with-idle-timer
    1 nil
