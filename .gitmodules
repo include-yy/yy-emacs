@@ -13,3 +13,15 @@
 [submodule "benchmark-init"]
 	path = site-lisp/extensions/benchmark-init
 	url = https://github.com/dholm/benchmark-init-el
+[submodule "ace-window"]
+	path = site-lisp/extensions/ace-window
+	url = https://github.com/abo-abo/ace-window
+[submodule "avy"]
+	path = site-lisp/extensions/avy
+	url = https://github.com/abo-abo/avy
+[submodule "winum"]
+	path = site-lisp/extensions/winum
+	url = https://github.com/deb0ch/emacs-winum
+[submodule "dash"]
+	path = site-lisp/extensions/dash
+	url = https://github.com/magnars/dash.el

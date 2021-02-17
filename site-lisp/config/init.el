@@ -9,9 +9,9 @@
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
 
-  ;;(require 'benchmark-init-modes)
-  ;;(require 'benchmark-init)
-  ;;(benchmark-init/activate)
+  (require 'benchmark-init-modes)
+  (require 'benchmark-init)
+  (benchmark-init/activate)
 
   (require 'init-startup)
   (require 'init-generic)
@@ -19,14 +19,15 @@
   (require 'basic-toolkit)
   (require 'redo+)
 
-  (require 'init-hipple-exp)
   ;;(require 'init-disable-mouse)
+  (require 'init-hipple-exp)
   (require 'init-backup)
   (require 'init-auto-save)
   (require 'init-line-number)
   (require 'init-highlight-parentheses)
   (require 'init-smex)
   (require 'init-session)
+  (require 'init-windows)
 
   ;;(require 'init-company-mode)
   ;;(require 'init-yasnippet)
