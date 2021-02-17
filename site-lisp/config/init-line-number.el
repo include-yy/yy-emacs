@@ -1,3 +1,5 @@
+(require 'display-line-numbers)
+
 (setq line-number-display-limit large-file-warning-threshold)
 (setq line-number-display-limit-width 1000)
 
@@ -49,4 +51,3 @@
 (provide 'init-line-number)
 
 ;;; init-line-number.el ends here
-

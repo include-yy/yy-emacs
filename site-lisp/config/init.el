@@ -9,33 +9,34 @@
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
 
+  ;;(require 'benchmark-init-modes)
+  ;;(require 'benchmark-init)
+  ;;(benchmark-init/activate)
+
   (require 'init-startup)
   (require 'init-generic)
-  ;;(require 'init-moe-theme)
   (require 'lazy-load)
   (require 'basic-toolkit)
   (require 'redo+)
-  (require 'awesome-pair)
-  (require 'display-line-numbers)
-  (require 'highlight-parentheses)
 
+  (require 'init-hipple-exp)
+  ;;(require 'init-disable-mouse)
   (require 'init-backup)
   (require 'init-auto-save)
   (require 'init-line-number)
-  (require 'init-awesome-pair)
-  (require 'init-company-mode)
-  (require 'init-ivy)
-  (require 'init-key)
+  (require 'init-highlight-parentheses)
+  (require 'init-smex)
+  (require 'init-session)
+
+  ;;(require 'init-company-mode)
+  ;;(require 'init-yasnippet)
+  ;;(require 'init-ivy)
+  ;;(require 'init-key)
 
   (run-with-idle-timer
    1 nil
    #'(lambda ()
-       (require 'init-yasnippet)
-
-
-       ;; Restore session at last
-       (require 'init-session)
-       ;;(emacs-session-restore)
+       (message "Hello")
   )))
 
 

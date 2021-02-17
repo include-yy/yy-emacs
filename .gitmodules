@@ -4,12 +4,12 @@
 [submodule "lazy-load"]
 	path = site-lisp/extensions/lazy-load
 	url = https://github.com/manateelazycat/lazy-load
-[submodule "awesome-pair"]
-	path = site-lisp/extensions/awesome-pair
-	url = https://github.com/manateelazycat/awesome-pair
 [submodule "disable-mouse"]
 	path = site-lisp/extensions/disable-mouse
 	url = https://github.com/purcell/disable-mouse
 [submodule "swiper"]
 	path = site-lisp/extensions/swiper
 	url = https://github.com/abo-abo/swiper
+[submodule "benchmark-init"]
+	path = site-lisp/extensions/benchmark-init
+	url = https://github.com/dholm/benchmark-init-el

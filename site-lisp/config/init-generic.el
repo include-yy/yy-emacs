@@ -11,27 +11,30 @@
 (setq read-process-output-max (* 1024 1024))
 
 (fset 'yes-or-no-p 'y-or-n-p) ; use y/n for yes/no
-(blink-cursor-mode -1) ; make cursor no blink
+
+(tool-bar-mode -1)      ; ban tool bar
+(menu-bar-mode -1)      ; ban menu bar
+(scroll-bar-mode -1)    ; ban scroll bar
+(blink-cursor-mode -1)  ; make cursor no blink
 (transient-mark-mode 1) ; mark highlight
 (global-subword-mode 1) ; Support FooBar format for Word movement
-(setq use-dialog-box nil) ; never pop dialog
-(setq inhibit-startup-screen t) ; inhibit start screen
-(setq initial-scratch-message "") ; switch off creating block buffer
-(setq-default comment-style 'indent) ; config auto-indent comment style
-(setq ring-bell-function 'ignore) ; close noisy ring
-;;(setq default-major-mode 'text-mode) ; set default major mode to text mode
-(setq mouse-yank-at-point t) ; to yank at point
-(setq x-select-enable-clipboard t) ; support paste with copy/outer program
-(setq split-width-threshold nil) ; split window vertically
-(setq inhibit-compacting-font-caches t) ; use font cache to avoid kakaka
-(setq confirm-kill-processes nil) ; auto kill process when exiting
+
+(setq use-dialog-box nil)               ; never pop dialog
+(setq inhibit-startup-screen t)         ; inhibit start screen
+(setq initial-scratch-message "")       ; switch off creating block buffer
+(setq ring-bell-function 'ignore)       ; close noisy ring
+(setq mouse-yank-at-point t)            ; to yank at point
+(setq x-select-enable-clipboard t)      ; support paste with copy/outer program
+(setq split-width-threshold nil)        ; split window vertically
+(setq inhibit-compacting-font-caches t) ; use font cache to avoid ka
+(setq confirm-kill-processes nil)       ; auto kill process when exiting
+(setq ad-redefinition-action 'accept)   ; discard annoying redefine warning
+(setq frame-resize-pixelwise t)         ; set resize mode
+(setq-default comment-style 'indent)    ; config auto-indent comment style
+(setq-default major-mode 'text-mode)    ; set default major mode to text mode
+
 ;;(setq async-bytecomp-allowed-packages nil) ; avoid errors message of magit
 ;;(setq word-wrap-by-catory t) ; wrap line according to chinese
-
-(add-hook 'find-file-hook 'highlight-parentheses-mode t) ;enhance paren highlight
-
-(setq ad-redefinition-action 'accept) ; discard annoying redefine warning
-(setq frame-resize-pixelwise t) ; set resize mode
 
 ;; make scroll smoothly
 (setq scroll-step 1
@@ -53,6 +56,12 @@
 (setq kill-buffer-query-functions
       (remq 'process-kill-buffer-query-function
 	    kill-buffer-query-functions))
+
+;; Nicer naming of buffers for files with identical names
+(setq uniquify-buffer-name-style 'reverse)
+(setq uniquify-separator " • ")
+(setq uniquify-after-kill-buffer-p t)
+(setq uniquify-ignore-buffers-re "^\\*")
 
 (provide 'init-generic)
 
