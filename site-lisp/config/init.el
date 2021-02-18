@@ -9,9 +9,9 @@
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
 
-  ;;(require 'benchmark-init-modes)
-  ;;(require 'benchmark-init)
-  ;;(benchmark-init/activate)
+  (require 'benchmark-init-modes)
+  (require 'benchmark-init)
+  (benchmark-init/activate)
 
   (require 'init-startup)
   (require 'init-generic)
@@ -29,15 +29,16 @@
   (require 'init-session)
   (require 'init-windows)
   (require 'init-dired)
-  ;;(require 'init-company-mode)
-  ;;(require 'init-yasnippet)
+
   ;;(require 'init-ivy)
   ;;(require 'init-key)
 
   (run-with-idle-timer
    1 nil
    #'(lambda ()
-       (message "Hello")
+       (require 'init-company-mode)
+       (require 'init-yasnippet)
+       (message "Hello, world")
   )))
 
 
