@@ -32,7 +32,7 @@
 	path = site-lisp/extensions/popup
 	url = https://github.com/auto-complete/popup-el
 [submodule "async"]
-	path = site-lisp\\extensions\\async
+	path = site-lisp/extensions/async
 	url = https://github.com/jwiegley/emacs-async
 [submodule "ido-vertical-mode"]
 	path = site-lisp/extensions/ido-vertical-mode
@@ -41,7 +41,7 @@
 	path = site-lisp/extensions/icomplete-vertical
 	url = https://github.com/oantolin/icomplete-vertical
 [submodule "dired-sidebar"]
-	path = site-lisp\\extensions\\dired-sidebar
+	path = site-lisp/extensions/dired-sidebar
 	url = https://github.com/jojojames/dired-sidebar
 [submodule "dired-hacks"]
 	path = site-lisp/extensions/dired-hacks
@@ -49,3 +49,9 @@
 [submodule "find-file-in-project"]
 	path = site-lisp/extensions/find-file-in-project
 	url = https://github.com/redguardtoo/find-file-in-project
+[submodule "aggressive-indent-mode"]
+	path = site-lisp/extensions/aggressive-indent-mode
+	url = https://github.com/Malabarba/aggressive-indent-mode
+[submodule "indent-guide"]
+	path = site-lisp/extensions/indent-guide
+	url = https://github.com/zk-phi/indent-guide

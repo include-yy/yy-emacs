@@ -26,11 +26,12 @@
     (require 'init-ido)
     (require 'init-icomplete)
     (require 'init-comment)
+    (require 'init-hipple-exp)
 
     ;;(require 'init-disable-mouse)
-    (require 'init-hipple-exp)
     (require 'init-backup)
     (require 'init-auto-save)
+    (require 'init-indent)
     (require 'init-highlight-parentheses)
     (require 'init-smex)
     (require 'init-session)
@@ -48,6 +49,7 @@
 	 (require 'init-yasnippet)
 	 (message "Hello, world")
 	 ))))
+
 
 
 (provide 'init)
