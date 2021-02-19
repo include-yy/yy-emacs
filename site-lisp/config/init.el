@@ -21,6 +21,7 @@
     (require 'redo+)
 
     (require 'init-line-number)
+    (require 'init-electric-pair)
     (require 'init-dired)
     (require 'init-ido)
     (require 'init-icomplete)
@@ -34,6 +35,7 @@
     (require 'init-smex)
     (require 'init-session)
     (require 'init-windows)
+    (require 'init-avy)
     (require 'init-ffip)
 
     ;;(require 'init-ivy)
