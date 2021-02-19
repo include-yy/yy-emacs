@@ -25,3 +25,18 @@
 [submodule "dash"]
 	path = site-lisp/extensions/dash
 	url = https://github.com/magnars/dash.el
+[submodule "helm"]
+	path = site-lisp/extensions/helm
+	url = https://github.com/emacs-helm/helm
+[submodule "popup"]
+	path = site-lisp/extensions/popup
+	url = https://github.com/auto-complete/popup-el
+[submodule "async"]
+	path = site-lisp\\extensions\\async
+	url = https://github.com/jwiegley/emacs-async
+[submodule "ido-vertical-mode"]
+	path = site-lisp/extensions/ido-vertical-mode
+	url = https://github.com/creichert/ido-vertical-mode.el
+[submodule "icomplete-vertical"]
+	path = site-lisp/extensions/icomplete-vertical
+	url = https://github.com/oantolin/icomplete-vertical
