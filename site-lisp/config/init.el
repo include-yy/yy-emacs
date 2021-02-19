@@ -9,39 +9,42 @@
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
 
-  (require 'benchmark-init-modes)
-  (require 'benchmark-init)
-  (benchmark-init/activate)
+  (with-temp-message ""
+    (require 'benchmark-init-modes)
+    (require 'benchmark-init)
+    (benchmark-init/activate)
 
-  (require 'init-startup)
-  (require 'init-generic)
-  (require 'lazy-load)
-  (require 'basic-toolkit)
-  (require 'redo+)
+    (require 'init-startup)
+    (require 'init-generic)
+    (require 'lazy-load)
+    (require 'basic-toolkit)
+    (require 'redo+)
 
-  ;;(require 'init-disable-mouse)
-  (require 'init-hipple-exp)
-  (require 'init-backup)
-  (require 'init-auto-save)
-  (require 'init-line-number)
-  (require 'init-highlight-parentheses)
-  (require 'init-smex)
-  (require 'init-session)
-  (require 'init-windows)
-  (require 'init-dired)
-  (require 'init-ido)
-  (require 'init-icomplete)
+    (require 'init-line-number)
+    (require 'init-dired)
+    (require 'init-ido)
+    (require 'init-icomplete)
+    (require 'init-comment)
 
-  ;;(require 'init-ivy)
-  ;;(require 'init-key)
+    ;;(require 'init-disable-mouse)
+    (require 'init-hipple-exp)
+    (require 'init-backup)
+    (require 'init-auto-save)
+    (require 'init-highlight-parentheses)
+    (require 'init-smex)
+    (require 'init-session)
+    (require 'init-windows)
 
-  (run-with-idle-timer
-   1 nil
-   #'(lambda ()
-       (require 'init-company-mode)
-       (require 'init-yasnippet)
-       (message "Hello, world")
-  )))
+    ;;(require 'init-ivy)
+    ;;(require 'init-key)
+
+    (run-with-idle-timer
+     1 nil
+     #'(lambda ()
+	 (require 'init-company-mode)
+	 (require 'init-yasnippet)
+	 (message "Hello, world")
+	 ))))
 
 
 (provide 'init)

@@ -40,3 +40,9 @@
 [submodule "icomplete-vertical"]
 	path = site-lisp/extensions/icomplete-vertical
 	url = https://github.com/oantolin/icomplete-vertical
+[submodule "dired-sidebar"]
+	path = site-lisp\\extensions\\dired-sidebar
+	url = https://github.com/jojojames/dired-sidebar
+[submodule "dired-hacks"]
+	path = site-lisp/extensions/dired-hacks
+	url = https://github.com/Fuco1/dired-hacks
