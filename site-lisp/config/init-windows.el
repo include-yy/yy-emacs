@@ -73,7 +73,7 @@ way-func can be | or _"
     (interactive)
     (let ((other-buffer (and (next-window) (window-buffer (next-window)))))
       (delete-other-windows)
-      (way-func)
+      (,way-func)
       (when other-buffer
 	(set-window-buffer (next-window) other-buffer)))))
 

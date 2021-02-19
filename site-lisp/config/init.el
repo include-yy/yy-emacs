@@ -29,6 +29,8 @@
   (require 'init-session)
   (require 'init-windows)
   (require 'init-dired)
+  (require 'init-ido)
+  (require 'init-icomplete)
 
   ;;(require 'init-ivy)
   ;;(require 'init-key)
