@@ -17,7 +17,7 @@
 (setq directory-free-space-args "-Pkh")	 ; options for free space
 
 (lazy-load-set-keys
- '(("r" . load-file)) dired-mode-map)
+ '(("r" . find-file)) dired-mode-map)
 
 ;;; {{{Config for dired-sidebar
 (push 'toggle-window-split dired-sidebar-toggle-hidden-commands)

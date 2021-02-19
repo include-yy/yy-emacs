@@ -46,3 +46,6 @@
 [submodule "dired-hacks"]
 	path = site-lisp/extensions/dired-hacks
 	url = https://github.com/Fuco1/dired-hacks
+[submodule "find-file-in-project"]
+	path = site-lisp/extensions/find-file-in-project
+	url = https://github.com/redguardtoo/find-file-in-project

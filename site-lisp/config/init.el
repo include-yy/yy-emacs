@@ -34,6 +34,7 @@
     (require 'init-smex)
     (require 'init-session)
     (require 'init-windows)
+    (require 'init-ffip)
 
     ;;(require 'init-ivy)
     ;;(require 'init-key)
