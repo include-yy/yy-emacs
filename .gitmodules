@@ -55,3 +55,15 @@
 [submodule "indent-guide"]
 	path = site-lisp/extensions/indent-guide
 	url = https://github.com/zk-phi/indent-guide
+[submodule "modern-cpp-font-lock"]
+	path = site-lisp/extensions/modern-cpp-font-lock
+	url = https://github.com/ludwigpacifici/modern-cpp-font-lock
+[submodule "irony"]
+	path = site-lisp/extensions/irony
+	url = https://github.com/Sarcasm/irony-mode
+[submodule "company-irony"]
+	path = site-lisp/extensions/company-irony
+	url = https://github.com/Sarcasm/company-irony
+[submodule "irony-eldoc"]
+	path = site-lisp/extensions/irony-eldoc
+	url = https://github.com/ikirill/irony-eldoc

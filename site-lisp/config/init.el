@@ -14,6 +14,7 @@
     (require 'benchmark-init)
     (benchmark-init/activate)
 
+    (require 'init-autoload)
     (require 'init-startup)
     (require 'init-generic)
     (require 'lazy-load)
@@ -27,6 +28,7 @@
     (require 'init-icomplete)
     (require 'init-comment)
     (require 'init-hipple-exp)
+    (require 'init-cc-mode)
 
     ;;(require 'init-disable-mouse)
     (require 'init-backup)
@@ -38,6 +40,7 @@
     (require 'init-windows)
     (require 'init-avy)
     (require 'init-ffip)
+    (require 'init-c)
 
     ;;(require 'init-ivy)
     ;;(require 'init-key)
