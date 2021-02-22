@@ -13,11 +13,11 @@
 
 (setq indent-guide-recursive t) ; draw multiple lines
 (setq indent-guide-threshold 0) ; avoid zero-column guide line
-(setq indent-guide-delay 0)     ; show lines immediately
+(setq indent-guide-delay 0.1)     ; show lines immediately
 
 ;; use `ident-guide-char' to show indent
 ;; │ ┃  ▍ ┇ ┋ ┊ ┆ ╽ ╿
-(setq indent-guide-char "┊")
+;;(setq indent-guide-char "┊")
 
 
 ;;; {{{ aggressive-indent mode config

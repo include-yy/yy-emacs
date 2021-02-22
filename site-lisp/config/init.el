@@ -29,6 +29,7 @@
     (require 'init-comment)
     (require 'init-hipple-exp)
     (require 'init-cc-mode)
+    (require 'init-search-replace)
 
     ;;(require 'init-disable-mouse)
     (require 'init-backup)
@@ -40,11 +41,12 @@
     (require 'init-windows)
     (require 'init-avy)
     (require 'init-ffip)
-    (require 'init-c)
-
+    (require 'init-ctags)
+    ;;(require 'init-irony)
     ;;(require 'init-ivy)
     ;;(require 'init-key)
 
+    (require 'init-c-c++)
     (run-with-idle-timer
      1 nil
      #'(lambda ()
@@ -52,8 +54,6 @@
 	 (require 'init-yasnippet)
 	 (message "Hello, world")
 	 ))))
-
-
 
 (provide 'init)
 

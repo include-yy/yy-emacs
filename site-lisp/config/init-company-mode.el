@@ -23,8 +23,6 @@
 ;;Customize company backends
 (setq company-backends (delete 'company-bbdb company-backends))
 (setq company-backends (delete 'company-oddmuse company-backends))
-;; c/c++'s backend
-(add-to-list 'company-backends 'company-irony)
 
 ;; Don't downcase the returned candidate
 (setq company-dabbrev-downcase nil)
