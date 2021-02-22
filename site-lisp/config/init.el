@@ -8,6 +8,7 @@
   (defvar yy-emacs-root-dir (file-truename "~/yy-emacs/site-lisp"))
   (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
+  (defvar yy-emacs-winbin-dir (concat yy-emacs-root-dir "/winbin"))
 
   (with-temp-message ""
     (require 'benchmark-init-modes)
