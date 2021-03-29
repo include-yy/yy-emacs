@@ -43,6 +43,7 @@
     (require 'init-avy)
     (require 'init-ffip)
     (require 'init-ctags)
+    (require 'init-haskell)
     ;;(require 'init-irony)
     ;;(require 'init-ivy)
     ;;(require 'init-key)

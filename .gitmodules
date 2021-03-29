@@ -67,3 +67,6 @@
 [submodule "irony-eldoc"]
 	path = site-lisp/extensions/irony-eldoc
 	url = https://github.com/ikirill/irony-eldoc
+[submodule "haskell-mode"]
+	path = site-lisp/extensions/haskell-mode
+	url = https://github.com/haskell/haskell-mode
