@@ -1,72 +1,72 @@
 [submodule "auto-save"]
 	path = site-lisp/extensions/auto-save
-	url = https://github.com/manateelazycat/auto-save
+	url = https://github.com.cnpmjs.org/manateelazycat/auto-save
 [submodule "lazy-load"]
 	path = site-lisp/extensions/lazy-load
-	url = https://github.com/manateelazycat/lazy-load
+	url = https://github.com.cnpmjs.org/manateelazycat/lazy-load
 [submodule "disable-mouse"]
 	path = site-lisp/extensions/disable-mouse
-	url = https://github.com/purcell/disable-mouse
+	url = https://github.com.cnpmjs.org/purcell/disable-mouse
 [submodule "swiper"]
 	path = site-lisp/extensions/swiper
-	url = https://github.com/abo-abo/swiper
+	url = https://github.com.cnpmjs.org/abo-abo/swiper
 [submodule "benchmark-init"]
 	path = site-lisp/extensions/benchmark-init
-	url = https://github.com/dholm/benchmark-init-el
+	url = https://github.com.cnpmjs.org/dholm/benchmark-init-el
 [submodule "ace-window"]
 	path = site-lisp/extensions/ace-window
-	url = https://github.com/abo-abo/ace-window
+	url = https://github.com.cnpmjs.org/abo-abo/ace-window
 [submodule "avy"]
 	path = site-lisp/extensions/avy
-	url = https://github.com/abo-abo/avy
+	url = https://github.com.cnpmjs.org/abo-abo/avy
 [submodule "winum"]
 	path = site-lisp/extensions/winum
-	url = https://github.com/deb0ch/emacs-winum
+	url = https://github.com.cnpmjs.org/deb0ch/emacs-winum
 [submodule "dash"]
 	path = site-lisp/extensions/dash
-	url = https://github.com/magnars/dash.el
+	url = https://github.com.cnpmjs.org/magnars/dash.el
 [submodule "helm"]
 	path = site-lisp/extensions/helm
-	url = https://github.com/emacs-helm/helm
+	url = https://github.com.cnpmjs.org/emacs-helm/helm
 [submodule "popup"]
 	path = site-lisp/extensions/popup
-	url = https://github.com/auto-complete/popup-el
+	url = https://github.com.cnpmjs.org/auto-complete/popup-el
 [submodule "async"]
 	path = site-lisp/extensions/async
-	url = https://github.com/jwiegley/emacs-async
+	url = https://github.com.cnpmjs.org/jwiegley/emacs-async
 [submodule "ido-vertical-mode"]
 	path = site-lisp/extensions/ido-vertical-mode
-	url = https://github.com/creichert/ido-vertical-mode.el
+	url = https://github.com.cnpmjs.org/creichert/ido-vertical-mode.el
 [submodule "icomplete-vertical"]
 	path = site-lisp/extensions/icomplete-vertical
-	url = https://github.com/oantolin/icomplete-vertical
+	url = https://github.com.cnpmjs.org/oantolin/icomplete-vertical
 [submodule "dired-sidebar"]
 	path = site-lisp/extensions/dired-sidebar
-	url = https://github.com/jojojames/dired-sidebar
+	url = https://github.com.cnpmjs.org/jojojames/dired-sidebar
 [submodule "dired-hacks"]
 	path = site-lisp/extensions/dired-hacks
-	url = https://github.com/Fuco1/dired-hacks
+	url = https://github.com.cnpmjs.org/Fuco1/dired-hacks
 [submodule "find-file-in-project"]
 	path = site-lisp/extensions/find-file-in-project
-	url = https://github.com/redguardtoo/find-file-in-project
+	url = https://github.com.cnpmjs.org/redguardtoo/find-file-in-project
 [submodule "aggressive-indent-mode"]
 	path = site-lisp/extensions/aggressive-indent-mode
-	url = https://github.com/Malabarba/aggressive-indent-mode
+	url = https://github.com.cnpmjs.org/Malabarba/aggressive-indent-mode
 [submodule "indent-guide"]
 	path = site-lisp/extensions/indent-guide
-	url = https://github.com/zk-phi/indent-guide
+	url = https://github.com.cnpmjs.org/zk-phi/indent-guide
 [submodule "modern-cpp-font-lock"]
 	path = site-lisp/extensions/modern-cpp-font-lock
-	url = https://github.com/ludwigpacifici/modern-cpp-font-lock
+	url = https://github.com.cnpmjs.org/ludwigpacifici/modern-cpp-font-lock
 [submodule "irony"]
 	path = site-lisp/extensions/irony
-	url = https://github.com/Sarcasm/irony-mode
+	url = https://github.com.cnpmjs.org/Sarcasm/irony-mode
 [submodule "company-irony"]
 	path = site-lisp/extensions/company-irony
-	url = https://github.com/Sarcasm/company-irony
+	url = https://github.com.cnpmjs.org/Sarcasm/company-irony
 [submodule "irony-eldoc"]
 	path = site-lisp/extensions/irony-eldoc
-	url = https://github.com/ikirill/irony-eldoc
+	url = https://github.com.cnpmjs.org/ikirill/irony-eldoc
 [submodule "haskell-mode"]
 	path = site-lisp/extensions/haskell-mode
-	url = https://github.com/haskell/haskell-mode
+	url = https://github.com.cnpmjs.org/haskell/haskell-mode

@@ -11,10 +11,11 @@
 (setq read-process-output-max (* 1024 1024))
 
 (fset 'yes-or-no-p 'y-or-n-p) ; use y/n for yes/no
+(when (display-graphic-p)
+  (tool-bar-mode -1)      ; ban tool bar
+  (scroll-bar-mode -1))   ; ban scroll bar
 
-(tool-bar-mode -1)      ; ban tool bar
 (menu-bar-mode -1)      ; ban menu bar
-(scroll-bar-mode -1)    ; ban scroll bar
 (blink-cursor-mode -1)  ; make cursor no blink
 (transient-mark-mode 1) ; mark highlight
 (global-subword-mode 1) ; Support FooBar format for Word movement
