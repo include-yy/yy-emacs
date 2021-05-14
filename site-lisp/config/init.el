@@ -11,9 +11,9 @@
   (defvar yy-emacs-winbin-dir (concat yy-emacs-root-dir "/winbin"))
 
   (with-temp-message ""
-    (require 'benchmark-init-modes)
-    (require 'benchmark-init)
-    (benchmark-init/activate)
+    ;;(require 'benchmark-init-modes)
+    ;;(require 'benchmark-init)
+    ;;(benchmark-init/activate)
 
     (require 'init-autoload)
     (require 'init-startup)
