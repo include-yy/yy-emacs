@@ -19,6 +19,7 @@
    ("<up>" . icomplete-backward-completions)
    ("C-p" . icomplete-backward-completions)
    ("C-v" . icomplete-vertical-toggle)
+   ("C-j" . exit-minibuffer)
    ("RET" . icomplete-force-complete-and-exit))
  icomplete-minibuffer-map)
 

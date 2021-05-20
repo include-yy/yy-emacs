@@ -46,7 +46,7 @@
     (require 'init-haskell)
     ;;(require 'init-irony)
     ;;(require 'init-ivy)
-    ;;(require 'init-key)
+    (require 'init-key)
 
     (require 'init-c-c++)
     (run-with-idle-timer
