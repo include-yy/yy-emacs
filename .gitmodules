@@ -73,3 +73,6 @@
 [submodule "cnfonts"]
 	path = site-lisp/extensions/cnfonts
 	url = https://github.com.cnpmjs.org/tumashu/cnfonts
+[submodule "app-launcher"]
+	path = site-lisp/extensions/app-launcher
+	url = https://github.com/SebastienWae/app-launcher

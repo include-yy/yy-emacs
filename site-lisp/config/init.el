@@ -48,6 +48,7 @@
     ;;(require 'init-ivy)
     (require 'init-key)
     (require 'init-cnfonts)
+    (require 'init-app-launcher)
 
     (require 'init-c-c++)
     (run-with-idle-timer
