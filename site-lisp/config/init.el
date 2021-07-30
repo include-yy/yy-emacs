@@ -49,6 +49,7 @@
     (require 'init-key)
     (require 'init-cnfonts)
     (require 'init-app-launcher)
+    (require 'init-org-mode)
 
     (require 'init-c-c++)
     (run-with-idle-timer
