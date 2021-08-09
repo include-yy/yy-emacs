@@ -79,3 +79,6 @@
 [submodule "htmlize"]
 	path = site-lisp/extensions/htmlize
 	url = https://github.com/hniksic/emacs-htmlize
+[submodule "rust-mode"]
+	path = site-lisp/extensions/rust-mode
+	url = https://github.com/rust-lang/rust-mode

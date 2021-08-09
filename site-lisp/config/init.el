@@ -52,6 +52,7 @@
     (require 'init-org-mode)
 
     (require 'init-c-c++)
+    (require 'init-rust)
     (run-with-idle-timer
      1 nil
      #'(lambda ()
