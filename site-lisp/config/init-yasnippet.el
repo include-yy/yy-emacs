@@ -1,8 +1,9 @@
 (require 'yasnippet)
+(require 'yasnippet-snippets)
 
 ;; add my template path
-(add-to-list `yas/root-directory
-	     (concat yy-emacs-root-dir "/snippets"))
+;;(add-to-list `yas/root-directory
+;;	     (concat yy-emacs-root-dir "/snippets"))
 
 ;; indent config
 (setq yas-indent-line 'auto)

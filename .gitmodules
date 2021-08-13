@@ -82,3 +82,6 @@
 [submodule "rust-mode"]
 	path = site-lisp/extensions/rust-mode
 	url = https://github.com/rust-lang/rust-mode
+[submodule "yasnippet-snippets"]
+	path = site-lisp/extensions/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets

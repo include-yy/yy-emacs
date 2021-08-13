@@ -6,7 +6,7 @@
 
 ;; set key
 (lazy-load-global-keys
- '(("C-c C-f" . find-file-in-project))
+ '(("C-c f" . find-file-in-project))
  "find-file-in-project")
 
 (provide 'init-ffip)
