@@ -50,9 +50,11 @@
     (require 'init-cnfonts)
     (require 'init-app-launcher)
     (require 'init-org-mode)
-
     (require 'init-c-c++)
     (require 'init-rust)
+    (require 'init-nov)
+
+    ;; load later
     (run-with-idle-timer
      1 nil
      #'(lambda ()

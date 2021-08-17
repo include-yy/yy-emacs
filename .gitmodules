@@ -85,3 +85,6 @@
 [submodule "yasnippet-snippets"]
 	path = site-lisp/extensions/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets
+[submodule "esxml"]
+	path = site-lisp/extensions/esxml
+	url = https://github.com/tali713/esxml
