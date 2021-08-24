@@ -18,3 +18,5 @@ eshell/
 /custom.el
 /smex-items
 /company-statistics-cache.el
+yylocal.el
+/temp

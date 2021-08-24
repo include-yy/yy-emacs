@@ -31,6 +31,9 @@
     ;; Exit emacs
     (kill-emacs)))
 
+(global-unset-key (kbd "C-x C-c"))
+(global-set-key (kbd "C-x C-c") 'emacs-session-save)
+
 (provide 'init-session)
 
 ;;; init-session.el ends here

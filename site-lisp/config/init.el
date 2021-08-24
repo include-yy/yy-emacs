@@ -10,6 +10,10 @@
   (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
   (defvar yy-emacs-winbin-dir (concat yy-emacs-root-dir "/winbin"))
 
+  (defun yy-open-init ()
+    "open my init file"
+    (interactive)
+    (find-file (concat yy-emacs-config-dir "/init.el")))
   (with-temp-message ""
     (require 'benchmark-init-modes)
     (require 'benchmark-init)
@@ -53,6 +57,7 @@
     (require 'init-c-c++)
     (require 'init-rust)
     (require 'init-nov)
+    (require 'init-slime)
 
     ;; load later
     (run-with-idle-timer
@@ -60,6 +65,10 @@
      #'(lambda ()
 	 (require 'init-company-mode)
 	 (require 'init-yasnippet)
+
+	 (require 'init-session)
+	 (emacs-session-restore)
+
 	 (message "Hello, world")
 	 ))))
 

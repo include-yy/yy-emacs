@@ -88,3 +88,6 @@
 [submodule "esxml"]
 	path = site-lisp/extensions/esxml
 	url = https://github.com/tali713/esxml
+[submodule "slime"]
+	path = site-lisp/extensions/slime
+	url = https://github.com/slime/slime
