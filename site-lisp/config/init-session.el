@@ -32,7 +32,7 @@
     (kill-emacs)))
 
 (global-unset-key (kbd "C-x C-c"))
-(global-set-key (kbd "C-x C-c") 'emacs-session-save)
+(global-set-key (kbd "<f12>") 'emacs-session-save)
 
 (provide 'init-session)
 

@@ -58,7 +58,7 @@
     (require 'init-rust)
     (require 'init-nov)
     (require 'init-slime)
-
+    (require 'init-citre)
     ;; load later
     (run-with-idle-timer
      1 nil

@@ -1,6 +1,6 @@
 ;; -*- lexical-binding: t;
 
-(autoload 'slime "slime" "" t)
+(require 'slime-autoloads)
 
 (setq inferior-lisp-program "sbcl")
 

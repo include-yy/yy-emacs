@@ -45,6 +45,7 @@
                'llvm-mode-hook
                'conf-toml-mode-hook
                'nxml-mode-hook
+	       'scheme-mode-hook
 	       ))
   (add-hook hook (lambda () (display-line-numbers-mode))))
 

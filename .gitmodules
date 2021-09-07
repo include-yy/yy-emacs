@@ -91,3 +91,6 @@
 [submodule "slime"]
 	path = site-lisp/extensions/slime
 	url = https://github.com/slime/slime
+[submodule "citre"]
+	path = site-lisp/extensions/citre
+	url = https://github.com/universal-ctags/citre
