@@ -6,14 +6,16 @@
 
   ;; define some boost directories for ease of migration
   (defvar yy-emacs-root-dir (file-truename "~/yy-emacs/site-lisp"))
-  (defvar yy-emacs-config-dir (concat yy-emacs-root-dir "/config"))
-  (defvar yy-emacs-extension-dir (concat yy-emacs-root-dir "/extensions"))
-  (defvar yy-emacs-winbin-dir (concat yy-emacs-root-dir "/winbin"))
-
+  (defvar yy-emacs-config-dir (concat (file-name-as-directory yy-emacs-root-dir) "config"))
+  (defvar yy-emacs-extension-dir (concat (file-name-as-directory yy-emacs-root-dir) "extensions"))
+  (defvar yy-emacs-winbin-dir (concat (file-name-as-directory yy-emacs-root-dir) "winbin"))
+  (defvar yy-emacs-scratch-dir (concat (file-name-as-directory yy-emacs-root-dir) "scratch"))
+  
   (defun yy-open-init ()
     "open my init file"
     (interactive)
     (find-file (concat yy-emacs-config-dir "/init.el")))
+
   (with-temp-message ""
     (require 'benchmark-init-modes)
     (require 'benchmark-init)
