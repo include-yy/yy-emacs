@@ -1,5 +1,8 @@
 ;; Use C-c <left> / <right> to navigate window layouts
 (winner-mode 1)
+
+(global-set-key (kbd "C-c n") 'winner-redo)
+(global-set-key (kbd "C-c p") 'winner-undo)
 
 
 ;; Make "C-x o" prompt for a target window when there are more than 2

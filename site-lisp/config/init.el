@@ -10,7 +10,7 @@
   (defvar yy-emacs-extension-dir (concat (file-name-as-directory yy-emacs-root-dir) "extensions"))
   (defvar yy-emacs-winbin-dir (concat (file-name-as-directory yy-emacs-root-dir) "winbin"))
   (defvar yy-emacs-scratch-dir (concat (file-name-as-directory yy-emacs-root-dir) "scratch"))
-  
+
   (defun yy-open-init ()
     "open my init file"
     (interactive)
@@ -61,6 +61,7 @@
     (require 'init-nov)
     (require 'init-slime)
     (require 'init-citre)
+    (require 'init-ibuffer)
     ;; load later
     (run-with-idle-timer
      1 nil

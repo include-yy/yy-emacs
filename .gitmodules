@@ -100,3 +100,15 @@
 [submodule "company-posframe"]
 	path = site-lisp/extensions/company-posframe
 	url = https://github.com/tumashu/company-posframe
+[submodule "transient"]
+	path = site-lisp/extensions/transient
+	url = https://github.com/magit/transient
+[submodule "with-editor"]
+	path = site-lisp/extensions/with-editor
+	url = https://github.com/magit/with-editor
+[submodule "magit"]
+	path = site-lisp/extensions/magit
+	url = https://github.com/magit/magit
+[submodule "ibuffer"]
+	path = site-lisp/extensions/ibuffer-vc
+	url = https://github.com/purcell/ibuffer-vc
