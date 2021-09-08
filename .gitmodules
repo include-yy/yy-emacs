@@ -94,3 +94,9 @@
 [submodule "citre"]
 	path = site-lisp/extensions/citre
 	url = https://github.com/universal-ctags/citre
+[submodule "posframe"]
+	path = site-lisp/extensions/posframe
+	url = https://github.com/tumashu/posframe
+[submodule "company-posframe"]
+	path = site-lisp/extensions/company-posframe
+	url = https://github.com/tumashu/company-posframe

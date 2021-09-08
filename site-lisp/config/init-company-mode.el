@@ -72,6 +72,13 @@
    )
  company-active-map)
 
+;; add posframe support
+(require 'posframe)
+(require 'company-posframe)
+(company-posframe-mode 1)
+;;dont display annoying quickhelper
+(setq company-posframe-quickhelp-delay nil)
+
 (provide 'init-company-mode)
 
 ;;; init-company-mode ends here
