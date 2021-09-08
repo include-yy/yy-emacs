@@ -75,40 +75,40 @@
 	url = https://github.com.cnpmjs.org/tumashu/cnfonts
 [submodule "app-launcher"]
 	path = site-lisp/extensions/app-launcher
-	url = https://github.com/SebastienWae/app-launcher
+	url = https://github.com.cnpmjs.org/SebastienWae/app-launcher
 [submodule "htmlize"]
 	path = site-lisp/extensions/htmlize
-	url = https://github.com/hniksic/emacs-htmlize
+	url = https://github.com.cnpmjs.org/hniksic/emacs-htmlize
 [submodule "rust-mode"]
 	path = site-lisp/extensions/rust-mode
-	url = https://github.com/rust-lang/rust-mode
+	url = https://github.com.cnpmjs.org/rust-lang/rust-mode
 [submodule "yasnippet-snippets"]
 	path = site-lisp/extensions/yasnippet-snippets
-	url = https://github.com/AndreaCrotti/yasnippet-snippets
+	url = https://github.com.cnpmjs.org/AndreaCrotti/yasnippet-snippets
 [submodule "esxml"]
 	path = site-lisp/extensions/esxml
-	url = https://github.com/tali713/esxml
+	url = https://github.com.cnpmjs.org/tali713/esxml
 [submodule "slime"]
 	path = site-lisp/extensions/slime
-	url = https://github.com/slime/slime
+	url = https://github.com.cnpmjs.org/slime/slime
 [submodule "citre"]
 	path = site-lisp/extensions/citre
-	url = https://github.com/universal-ctags/citre
+	url = https://github.com.cnpmjs.org/universal-ctags/citre
 [submodule "posframe"]
 	path = site-lisp/extensions/posframe
-	url = https://github.com/tumashu/posframe
+	url = https://github.com.cnpmjs.org/tumashu/posframe
 [submodule "company-posframe"]
 	path = site-lisp/extensions/company-posframe
-	url = https://github.com/tumashu/company-posframe
+	url = https://github.com.cnpmjs.org/tumashu/company-posframe
 [submodule "transient"]
 	path = site-lisp/extensions/transient
-	url = https://github.com/magit/transient
+	url = https://github.com.cnpmjs.org/magit/transient
 [submodule "with-editor"]
 	path = site-lisp/extensions/with-editor
-	url = https://github.com/magit/with-editor
+	url = https://github.com.cnpmjs.org/magit/with-editor
 [submodule "magit"]
 	path = site-lisp/extensions/magit
-	url = https://github.com/magit/magit
+	url = https://github.com.cnpmjs.org/magit/magit
 [submodule "ibuffer"]
 	path = site-lisp/extensions/ibuffer-vc
-	url = https://github.com/purcell/ibuffer-vc
+	url = https://github.com.cnpmjs.org/purcell/ibuffer-vc
