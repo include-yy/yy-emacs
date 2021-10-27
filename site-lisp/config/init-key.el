@@ -8,8 +8,12 @@
 (global-set-key (kbd "C-x 】") 'forward-page)
 
 ;; kill word
-(global-set-key (kbd "C-w") 'backward-kill-word)
-(global-set-key (kbd "C-c C-k") 'kill-region)
+(defun my-kill-word-or-region (arg)
+  (interactive "p")
+  (if (region-active-p)
+      (kill-region (region-beginning) (region-end))
+    (backward-kill-word arg)))
+(global-set-key (kbd "C-w") 'my-kill-word-or-region)
 
 ;; search
 (global-set-key (kbd "C-c s") 'isearch-forward-regexp)
