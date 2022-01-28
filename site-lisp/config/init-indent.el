@@ -29,7 +29,8 @@
 (dolist (mmod '(
 		python-mode
 		lua-mode
-		snippet-mode))
+		snippet-mode
+		verilog-mode))
   (add-to-list 'aggressive-indent-excluded-modes mmod))
 
 ;; don't use electric indent mode in these modes

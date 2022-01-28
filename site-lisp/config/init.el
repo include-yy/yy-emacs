@@ -1,22 +1,30 @@
+;;; init.el yy-emacs init file -*-lexical-binding: t-*-
+
+;; define some boost directories for ease of migration
+(defvar yy-emacs-dir "~/yy-emacs")
+(defvar yy-emacs-root-dir (file-truename (concat (file-name-as-directory yy-emacs-dir) "site-lisp")))
+(defvar yy-emacs-config-dir (concat (file-name-as-directory yy-emacs-root-dir) "config"))
+(defvar yy-emacs-extension-dir (concat (file-name-as-directory yy-emacs-root-dir) "extensions"))
+(defvar yy-emacs-winbin-dir (concat (file-name-as-directory yy-emacs-root-dir) "winbin"))
+(defvar yy-emacs-scratch-dir (concat (file-name-as-directory yy-emacs-root-dir) "scratch"))
+
+(defun yy-open-init ()
+  "open my init file"
+  (interactive)
+  (find-file (concat yy-emacs-config-dir "/init.el")))
+
 (let (
       ;; temporarily increase `gc-cons-threshold' to speed up boost
       (gc-cons-threshold most-positive-fixnum)
       (gc-cons-percentage 0.6)
       (file-name-handler-alist nil))
 
-  ;; define some boost directories for ease of migration
-  (defvar yy-emacs-root-dir (file-truename "~/yy-emacs/site-lisp"))
-  (defvar yy-emacs-config-dir (concat (file-name-as-directory yy-emacs-root-dir) "config"))
-  (defvar yy-emacs-extension-dir (concat (file-name-as-directory yy-emacs-root-dir) "extensions"))
-  (defvar yy-emacs-winbin-dir (concat (file-name-as-directory yy-emacs-root-dir) "winbin"))
-  (defvar yy-emacs-scratch-dir (concat (file-name-as-directory yy-emacs-root-dir) "scratch"))
-
-  (defun yy-open-init ()
-    "open my init file"
-    (interactive)
-    (find-file (concat yy-emacs-config-dir "/init.el")))
-
   (with-temp-message ""
+    ;; local config file
+    (when (file-exists-p (concat (file-name-as-directory yy-emacs-dir)
+				 "local/init-local.el"))
+      (require 'init-local))
+
     (require 'benchmark-init-modes)
     (require 'benchmark-init)
     (benchmark-init/activate)
