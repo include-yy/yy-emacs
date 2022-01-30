@@ -30,9 +30,11 @@
 
 ;; Add `company-elisp' backend for elisp
 (add-hook 'emacs-lisp-mode-hook
-	  '(lambda ()
-	     (require 'company-elisp)
-	     (push 'company-elisp company-backends)))
+          #'(lambda ()
+              (require 'company-elisp)
+              (if (and (listp company-backends) (member 'company-elisp company-backends))
+                  company-backends
+                (push 'company-elisp company-backends))))
 
 ;; Add yasnippet support for all company backends
 (defvar company-mode/enable-yas t
