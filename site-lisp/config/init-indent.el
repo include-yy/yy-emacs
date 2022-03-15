@@ -11,7 +11,7 @@
 ;;; {{{ indent-guide mode config
 (indent-guide-global-mode)
 
-(setq indent-guide-recursive t) ; draw multiple lines
+(setq indent-guide-recursive nil) ; draw multiple lines
 (setq indent-guide-threshold 0) ; avoid zero-column guide line
 (setq indent-guide-delay 0.1)     ; show lines immediately
 
