@@ -21,8 +21,9 @@
 
   (with-temp-message ""
     ;; local config file
-    (when (file-exists-p (concat (file-name-as-directory yy-emacs-dir)
-				 "local/init-local.el"))
+    (when (file-exists-p (concat
+			  (file-name-as-directory yy-emacs-dir)
+			  "local/init-local.el"))
       (require 'init-local))
 
     (require 'benchmark-init-modes)
