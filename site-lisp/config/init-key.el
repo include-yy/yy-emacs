@@ -19,6 +19,10 @@
 (global-set-key (kbd "C-c s") 'isearch-forward-regexp)
 (global-set-key (kbd "C-c r") 'isearch-backward-regexp)
 
+;; kill current buffer directly
+(global-unset-key (kbd "C-x k"))
+(global-set-key (kbd "C-x k") 'kill-current-buffer)
+
 (provide 'init-key)
 
 ;;; init-key.el ends here

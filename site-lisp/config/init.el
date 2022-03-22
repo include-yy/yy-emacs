@@ -71,6 +71,7 @@
     (require 'init-slime)
     (require 'init-citre)
     (require 'init-ibuffer)
+    (require 'init-parrot)
     ;; load later
     (run-with-idle-timer
      1 nil

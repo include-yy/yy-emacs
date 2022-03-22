@@ -53,6 +53,14 @@
 ;; saved filters
 (let (it)
   ;; add push here
+  (push '("ecsrc"
+	  (or
+	   (file-extension . "c")
+	   (file-extension . "h"))
+	  (or
+	   (directory . "emacs.*src")
+	   (directory . "emacs.*lib")))
+	it)
   (push '("el"
 	  (or
 	   (file-extension . "el")
@@ -64,7 +72,7 @@
 	   (file-extension . "lisp")))
 	it)
   (push '("esrc"
-	  (or
+	  (and
 	   (file-extension . "el")
 	   (directory . "emacs/.*/lisp")))
 	it)
@@ -72,6 +80,9 @@
 	  (or
 	   (file-extension . "org")
 	   (used-mode . org-mode)))
+	it)
+  (push '("temp"
+	  (starred-name))
 	it)
   ;; set option to it
   (setq ibuffer-saved-filters it)
@@ -81,6 +92,8 @@
 (let (it)
   ;;add push here
   (push '("default"
+	  ("ecsrc"
+	   (saved . "ecsrc"))
 	  ("clisp"
 	   (saved . "cl"))
 	  ("src"
@@ -88,7 +101,9 @@
 	  ("elisp"
 	   (saved . "el"))
 	  ("org"
-	   (saved . "org")))
+	   (saved . "org"))
+	  ("temp"
+	   (saved . "temp")))
 	it)
   ;;set option to it
   (setq ibuffer-saved-filter-groups it)

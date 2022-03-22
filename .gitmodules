@@ -112,3 +112,6 @@
 [submodule "ibuffer"]
 	path = site-lisp/extensions/ibuffer-vc
 	url = https://github.com.cnpmjs.org/purcell/ibuffer-vc
+[submodule "parrot"]
+	path = site-lisp/extensions/parrot
+	url = https://github.com/dp12/parrot
