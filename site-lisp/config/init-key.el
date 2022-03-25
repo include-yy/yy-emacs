@@ -23,6 +23,10 @@
 (global-unset-key (kbd "C-x k"))
 (global-set-key (kbd "C-x k") 'kill-current-buffer)
 
+;; use C-z other than C-x z to repeat command
+(global-unset-key (kbd "C-z"))
+(global-set-key (kbd "C-z") 'repeat)
+
 (provide 'init-key)
 
 ;;; init-key.el ends here

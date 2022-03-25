@@ -47,7 +47,7 @@
 	       'scheme-mode-hook
 	       'verilog-mode-hook
 	       ))
-  (add-hook hook (lambda () (display-line-numbers-mode))))
+  (add-hook hook (lambda () (highlight-parentheses-mode))))
 
 (provide 'init-highlight-parentheses)
 ;;; init-highlight-parentheses.el ends here

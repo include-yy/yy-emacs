@@ -48,8 +48,8 @@
       (init-avy-start-timer)
       (message "start avy timer"))))
 
-(global-unset-key (kbd "C-z"))
-(global-set-key (kbd "C-z") 'toggle-avy-timer)
+(global-unset-key (kbd "C-x z"))
+(global-set-key (kbd "C-x z") 'toggle-avy-timer)
 
 (provide 'init-avy)
 
