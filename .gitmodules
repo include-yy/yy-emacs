@@ -12,7 +12,7 @@
 	url = https://github.com/abo-abo/swiper
 [submodule "benchmark-init"]
 	path = site-lisp/extensions/benchmark-init
-	url = https://github.com/dholm/benchmark-init-el
+	url = https://github.com/include-yy/benchmark-init-el
 [submodule "ace-window"]
 	path = site-lisp/extensions/ace-window
 	url = https://github.com/abo-abo/ace-window
