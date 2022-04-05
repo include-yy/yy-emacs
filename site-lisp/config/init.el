@@ -26,9 +26,9 @@
 			  "local/init-local.el"))
       (require 'init-local))
 
-    ;;(require 'benchmark-init-modes)
-    ;;(require 'benchmark-init)
-    ;;(benchmark-init/activate)
+    (require 'benchmark-init-modes)
+    (require 'benchmark-init)
+    (benchmark-init/activate)
 
     (require 'init-autoload)
     (require 'init-startup)
@@ -72,6 +72,7 @@
     (require 'init-citre)
     (require 'init-ibuffer)
     (require 'init-parrot)
+    (require 'init-native-comp)
     ;; load later
     (run-with-idle-timer
      1 nil

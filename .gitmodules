@@ -1,117 +1,156 @@
 [submodule "auto-save"]
 	path = site-lisp/extensions/auto-save
 	url = https://github.com/manateelazycat/auto-save
+	ignore = dirty
 [submodule "lazy-load"]
 	path = site-lisp/extensions/lazy-load
 	url = https://github.com/manateelazycat/lazy-load
+	ignore = dirty
 [submodule "disable-mouse"]
 	path = site-lisp/extensions/disable-mouse
 	url = https://github.com/purcell/disable-mouse
+	ignore = dirty
 [submodule "swiper"]
 	path = site-lisp/extensions/swiper
 	url = https://github.com/abo-abo/swiper
+	ignore = dirty
 [submodule "benchmark-init"]
 	path = site-lisp/extensions/benchmark-init
 	url = https://github.com/include-yy/benchmark-init-el
+	ignore = dirty
 [submodule "ace-window"]
 	path = site-lisp/extensions/ace-window
 	url = https://github.com/abo-abo/ace-window
+	ignore = dirty
 [submodule "avy"]
 	path = site-lisp/extensions/avy
 	url = https://github.com/abo-abo/avy
+	ignore = dirty
 [submodule "winum"]
 	path = site-lisp/extensions/winum
 	url = https://github.com/deb0ch/emacs-winum
+	ignore = dirty
 [submodule "dash"]
 	path = site-lisp/extensions/dash
 	url = https://github.com/magnars/dash.el
+	ignore = dirty
 [submodule "helm"]
 	path = site-lisp/extensions/helm
 	url = https://github.com/emacs-helm/helm
+	ignore = dirty
 [submodule "popup"]
 	path = site-lisp/extensions/popup
 	url = https://github.com/auto-complete/popup-el
+	ignore = dirty
 [submodule "async"]
 	path = site-lisp/extensions/async
 	url = https://github.com/jwiegley/emacs-async
+	ignore = dirty
 [submodule "ido-vertical-mode"]
 	path = site-lisp/extensions/ido-vertical-mode
 	url = https://github.com/creichert/ido-vertical-mode.el
+	ignore = dirty
 [submodule "icomplete-vertical"]
 	path = site-lisp/extensions/icomplete-vertical
 	url = https://github.com/oantolin/icomplete-vertical
+	ignore = dirty
 [submodule "dired-sidebar"]
 	path = site-lisp/extensions/dired-sidebar
 	url = https://github.com/jojojames/dired-sidebar
+	ignore = dirty
 [submodule "dired-hacks"]
 	path = site-lisp/extensions/dired-hacks
 	url = https://github.com/Fuco1/dired-hacks
+	ignore = dirty
 [submodule "find-file-in-project"]
 	path = site-lisp/extensions/find-file-in-project
 	url = https://github.com/redguardtoo/find-file-in-project
+	ignore = dirty
 [submodule "aggressive-indent-mode"]
 	path = site-lisp/extensions/aggressive-indent-mode
 	url = https://github.com/Malabarba/aggressive-indent-mode
+	ignore = dirty
 [submodule "indent-guide"]
 	path = site-lisp/extensions/indent-guide
 	url = https://github.com/zk-phi/indent-guide
+	ignore = dirty
 [submodule "modern-cpp-font-lock"]
 	path = site-lisp/extensions/modern-cpp-font-lock
 	url = https://github.com/ludwigpacifici/modern-cpp-font-lock
+	ignore = dirty
 [submodule "irony"]
 	path = site-lisp/extensions/irony
 	url = https://github.com/Sarcasm/irony-mode
+	ignore = dirty
 [submodule "company-irony"]
 	path = site-lisp/extensions/company-irony
 	url = https://github.com/Sarcasm/company-irony
+	ignore = dirty
 [submodule "irony-eldoc"]
 	path = site-lisp/extensions/irony-eldoc
 	url = https://github.com/ikirill/irony-eldoc
+	ignore = dirty
 [submodule "haskell-mode"]
 	path = site-lisp/extensions/haskell-mode
 	url = https://github.com/haskell/haskell-mode
+	ignore = dirty
 [submodule "cnfonts"]
 	path = site-lisp/extensions/cnfonts
 	url = https://github.com/tumashu/cnfonts
+	ignore = dirty
 [submodule "app-launcher"]
 	path = site-lisp/extensions/app-launcher
 	url = https://github.com/SebastienWae/app-launcher
+	ignore = dirty
 [submodule "htmlize"]
 	path = site-lisp/extensions/htmlize
 	url = https://github.com/hniksic/emacs-htmlize
+	ignore = dirty
 [submodule "rust-mode"]
 	path = site-lisp/extensions/rust-mode
 	url = https://github.com/rust-lang/rust-mode
+	ignore = dirty
 [submodule "yasnippet-snippets"]
 	path = site-lisp/extensions/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets
+	ignore = dirty
 [submodule "esxml"]
 	path = site-lisp/extensions/esxml
 	url = https://github.com/tali713/esxml
+	ignore = dirty
 [submodule "slime"]
 	path = site-lisp/extensions/slime
 	url = https://github.com/slime/slime
+	ignore = dirty
 [submodule "citre"]
 	path = site-lisp/extensions/citre
 	url = https://github.com/universal-ctags/citre
+	ignore = dirty
 [submodule "posframe"]
 	path = site-lisp/extensions/posframe
 	url = https://github.com/tumashu/posframe
+	ignore = dirty
 [submodule "company-posframe"]
 	path = site-lisp/extensions/company-posframe
 	url = https://github.com/tumashu/company-posframe
+	ignore = dirty
 [submodule "transient"]
 	path = site-lisp/extensions/transient
 	url = https://github.com/magit/transient
+	ignore = dirty
 [submodule "with-editor"]
 	path = site-lisp/extensions/with-editor
 	url = https://github.com/magit/with-editor
+	ignore = dirty
 [submodule "magit"]
 	path = site-lisp/extensions/magit
 	url = https://github.com/magit/magit
+	ignore = dirty
 [submodule "ibuffer"]
 	path = site-lisp/extensions/ibuffer-vc
 	url = https://github.com/purcell/ibuffer-vc
+	ignore = dirty
 [submodule "parrot"]
 	path = site-lisp/extensions/parrot
 	url = https://github.com/dp12/parrot
+	ignore = dirty

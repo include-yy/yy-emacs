@@ -6,7 +6,7 @@
 
 ;; front-end configure
 (setq company-mininum-prefix-length 3) ; 3 char to pop up menu
-(setq company-idle-delay 0.2)          ; set pop-up delay to 0.2s
+(setq company-idle-delay 0)          ; set pop-up delay to 0s
 (setq company-echo-delay 0)            ; remove annoying blink
 (setq company-require-match nil)       ; allow string don't match candidate words
 (setq company-show-numbers t)          ; show candidates order number 1 ~ 9 and 0
