@@ -1,3 +1,4 @@
+;;; init-company.el -*- lexical-binding:t; -*-
 (require 'company)
 (require 'company-tng)
 

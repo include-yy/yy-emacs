@@ -1,3 +1,4 @@
+;;; init-dired.el -*- lexical-binding:t; -*-
 (require 'dired)
 (require 'dired-x)
 (require 'dired-sidebar)

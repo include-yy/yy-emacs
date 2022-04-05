@@ -26,9 +26,9 @@
 			  "local/init-local.el"))
       (require 'init-local))
 
-    (require 'benchmark-init-modes)
-    (require 'benchmark-init)
-    (benchmark-init/activate)
+    ;;(require 'benchmark-init-modes)
+    ;;(require 'benchmark-init)
+    ;;(benchmark-init/activate)
 
     (require 'init-autoload)
     (require 'init-startup)
