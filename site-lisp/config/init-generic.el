@@ -64,6 +64,9 @@
 (setq uniquify-after-kill-buffer-p t)
 (setq uniquify-ignore-buffers-re "^\\*")
 
+;; word wrap kanji
+(setq word-wrap-by-category t)
+
 (provide 'init-generic)
 
 ;;; init-generic.el ends here
