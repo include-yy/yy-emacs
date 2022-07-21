@@ -1,7 +1,6 @@
 ;;; init.el yy-emacs init file -*-lexical-binding: t-*-
 
 ;; define some boost directories for ease of migration
-(defvar yy-emacs-dir "~/yy-emacs")
 (defvar yy-emacs-root-dir (file-truename (concat (file-name-as-directory yy-emacs-dir) "site-lisp")))
 (defvar yy-emacs-config-dir (concat (file-name-as-directory yy-emacs-root-dir) "config"))
 (defvar yy-emacs-extension-dir (concat (file-name-as-directory yy-emacs-root-dir) "extensions"))
