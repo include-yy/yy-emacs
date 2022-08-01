@@ -33,6 +33,7 @@
 (setq frame-resize-pixelwise t)         ; set resize mode
 (setq-default comment-style 'indent)    ; config auto-indent comment style
 (setq-default major-mode 'text-mode)    ; set default major mode to text mode
+(setq-default system-time-locale "C")   ; use english time format 
 
 ;;(setq async-bytecomp-allowed-packages nil) ; avoid errors message of magit
 ;;(setq word-wrap-by-catory t) ; wrap line according to chinese
