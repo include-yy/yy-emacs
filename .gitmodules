@@ -154,3 +154,6 @@
 	path = site-lisp/extensions/parrot
 	url = https://github.com/dp12/parrot
 	ignore = dirty
+[submodule "yyorg-bookmark"]
+	path = site-lisp/yy-package/yyorg-bookmark
+	url = https://github.com/include-yy/yyorg-bookmark
