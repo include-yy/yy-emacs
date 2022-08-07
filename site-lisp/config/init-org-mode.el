@@ -5,7 +5,7 @@
 
 (setq org-tags-column 0)
 (setq org-startup-truncated nil)
-
+(setq org-image-actual-width 400)
 (provide 'init-org-mode)
 
 
