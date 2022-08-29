@@ -4,6 +4,8 @@
 
 (global-company-mode 1)
 
+(setq company-global-modes '(not shell-mode eshell-mode))
+
 ;; front-end configure
 (setq company-mininum-prefix-length 3) ; 3 char to pop up menu
 (setq company-idle-delay 0)          ; set pop-up delay to 0s
