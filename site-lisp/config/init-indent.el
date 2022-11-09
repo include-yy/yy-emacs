@@ -23,6 +23,9 @@
 ;;; {{{ aggressive-indent mode config
 (global-aggressive-indent-mode 1)
 
+;; bug fix
+(setq aggressive-indent-region-function #'(lambda (x y) (let ((inhibit-message t)) (indent-region x y))))
+
 (setq aggressive-indent-sit-for-time 0.1) ; set reasonate time
 
 ;; don't use agg for these modes
