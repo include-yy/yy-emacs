@@ -157,3 +157,6 @@
 [submodule "yyorg-bookmark"]
 	path = site-lisp/yy-package/yyorg-bookmark
 	url = https://github.com/include-yy/yyorg-bookmark
+[submodule "markdown-mode"]
+	path = site-lisp/extensions/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode

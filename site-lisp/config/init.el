@@ -72,6 +72,7 @@
     (require 'init-ibuffer)
     (require 'init-parrot)
     (require 'init-native-comp)
+    (require 'init-markdown)
     ;; load later
     (run-with-idle-timer
      1 nil
