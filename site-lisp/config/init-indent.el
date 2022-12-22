@@ -53,10 +53,10 @@
                                        (thing-at-point 'line)))))
 
 (add-hook 'prog-mode-hook
-	  '(lambda ()
-	     (unless (or (member major-mode aggressive-indent-excluded-modes)
-			 (member major-mode aggressive-indent-dont-electric-modes))
-	       (aggressive-indent-mode))))
+	  #'(lambda ()
+	      (unless (or (member major-mode aggressive-indent-excluded-modes)
+			  (member major-mode aggressive-indent-dont-electric-modes))
+		(aggressive-indent-mode))))
 
 (provide 'init-indent)
 
