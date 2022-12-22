@@ -74,6 +74,8 @@
     (require 'init-native-comp)
     (require 'init-markdown)
     (require 'init-beacon)
+    (require 'init-moe-theme)
+    (require 'init-rescript)
     ;; load later
     (run-with-idle-timer
      1 nil

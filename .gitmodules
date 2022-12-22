@@ -166,3 +166,6 @@
 [submodule "beacon"]
 	path = site-lisp/extensions/beacon
 	url = https://github.com/Malabarba/beacon
+[submodule "moe-theme"]
+	path = site-lisp/extensions/moe-theme
+	url = https://github.com/kuanyui/moe-theme.el
