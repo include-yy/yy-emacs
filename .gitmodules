@@ -160,3 +160,6 @@
 [submodule "markdown-mode"]
 	path = site-lisp/extensions/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode
+[submodule "s.el"]
+	path = site-lisp/extensions/s
+	url = https://github.com/magnars/s.el
