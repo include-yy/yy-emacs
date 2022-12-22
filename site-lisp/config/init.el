@@ -73,6 +73,7 @@
     (require 'init-parrot)
     (require 'init-native-comp)
     (require 'init-markdown)
+    (require 'init-beacon)
     ;; load later
     (run-with-idle-timer
      1 nil

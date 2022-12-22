@@ -163,3 +163,6 @@
 [submodule "s.el"]
 	path = site-lisp/extensions/s
 	url = https://github.com/magnars/s.el
+[submodule "beacon"]
+	path = site-lisp/extensions/beacon
+	url = https://github.com/Malabarba/beacon
