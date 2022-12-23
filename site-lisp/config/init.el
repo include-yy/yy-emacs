@@ -76,6 +76,7 @@
     (require 'init-beacon)
     (require 'init-moe-theme)
     (require 'init-rescript)
+    (require 'init-topsy)
     ;; load later
     (run-with-idle-timer
      1 nil

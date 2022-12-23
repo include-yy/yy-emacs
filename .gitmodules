@@ -169,3 +169,6 @@
 [submodule "moe-theme"]
 	path = site-lisp/extensions/moe-theme
 	url = https://github.com/kuanyui/moe-theme.el
+[submodule "topsy"]
+	path = site-lisp/extensions/topsy
+	url = https://github.com/alphapapa/topsy.el
