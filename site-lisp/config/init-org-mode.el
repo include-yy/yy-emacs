@@ -10,4 +10,8 @@
 (setq org-file-apps
       (cl-substitute-if '(directory . default) (lambda (x) (eq (car x) 'directory)) org-file-apps))
 
+(require 'ox-org)
+
+(setq org-export-dispatch-use-expert-ui t)
+
 (provide 'init-org-mode)
